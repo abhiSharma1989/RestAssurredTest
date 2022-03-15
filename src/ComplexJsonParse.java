@@ -4,7 +4,7 @@ import io.restassured.path.json.JsonPath;
 public class ComplexJsonParse {
 
 	public static void main(String[] args) {
-
+		// Code to find the course
 		JsonPath js = new JsonPath(payload.CoursePrice());
 		
 		//Print No of courses returned by API
